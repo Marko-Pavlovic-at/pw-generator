@@ -23,9 +23,9 @@ design file : https://www.figma.com/design/FFuy5jQpRNijv2YIsE3yBx/Random-Passwor
 # Pseudocode :
 
 ## HTML and CSS
-- create index.html and styles.css
-- create a heading a paragraph and a button
-- create 2 divs below that for the output
+- create index.html and styles.css DONE
+- create a heading a paragraph and a button DONE
+- create 2 divs below that for the output DONE
 - link html and css
 - background color for the body #111827
 - color for the heading green #4ADF86

@@ -1,4 +1,56 @@
 body{
     background-color: #111827;
     color: white;
+    margin: 0;
+}
+
+#top-section{
+    padding: 4rem;
+}
+
+.highlight{
+    color:#4ADF86 ;
+}
+
+#pw-btn{
+    background-color:#10B981 ;
+    color: white;
+    padding: 1rem 0.5rem;
+    border: none;
+    border-radius: 0.4rem;
+    font-weight: bold;
+}
+
+#pw-btn:hover{
+    background-color: #0c7f59;
+}
+
+h1{
+    font-size: 50px;
+    margin: 0;
+    
+    
+}
+
+p{
+    font-size: 25px;
+    margin-bottom: 3rem;
+}
+hr{
+    width: 92%;
+}
+
+.output-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 4rem;
+    padding: 4rem;
+}
+
+.pw-box{
+    background-color: #273549 ;
+    height: 40px;
+    width: 400px;
+    border-radius: 0.5rem;
 }

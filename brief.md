@@ -26,14 +26,24 @@ design file : https://www.figma.com/design/FFuy5jQpRNijv2YIsE3yBx/Random-Passwor
 - create index.html and styles.css DONE
 - create a heading a paragraph and a button DONE
 - create 2 divs below that for the output DONE
-- link html and css
-- background color for the body #111827
-- color for the heading green #4ADF86
-- color for the heading white 
-- color for the button #10B981
-- color for the password divs #273549 
-- body is flex collumn
-- header is a left aligned flex collumn
-- the subsection with the divs is a flex row
-- button has padding is rounded with white text
-- passwort output is also slightly rounded
+- link html and css DONE
+- background color for the body #111827 DONE
+- color for the heading green #4ADF86 DONE
+- color for the heading white DONE
+- color for the button #10B981 DONE
+- button border none rounded corners and padding text white font weight DONE
+- heading font size DONE
+- color for the password divs #273549 DONE
+- the subsection with the divs is a flex row DONE
+- button has padding is rounded with white text DONE
+- passwort output is also slightly rounded DONE
+
+## JS Generation Logic
+- create js file and link it to html
+- console log something to make sure it works
+- add the array from the brief in js
+- create two pw variables
+- create a function that loops trough the array 15 times log the result
+- make the characters i get random and log the result
+- save them into the vars
+- write it into the div

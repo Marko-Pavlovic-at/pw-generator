@@ -39,10 +39,10 @@ design file : https://www.figma.com/design/FFuy5jQpRNijv2YIsE3yBx/Random-Passwor
 - passwort output is also slightly rounded DONE
 
 ## JS Generation Logic
-- create js file and link it to html
-- console log something to make sure it works
-- add the array from the brief in js
-- create two pw variables
+- create js file and link it to html DONE
+- console log something to make sure it works DONE
+- add the array from the brief in js DONE
+- create two pw variables DONE
 - create a function that loops trough the array 15 times log the result
 - make the characters i get random and log the result
 - save them into the vars

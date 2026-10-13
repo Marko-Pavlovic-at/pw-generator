@@ -10,8 +10,8 @@ const characters =
 "/"
 ];
 
-pwOne = getPassword();
-pwTwo = getPassword();
+let pwOne = getPassword();
+let pwTwo = getPassword();
 
 
 function getPassword(){

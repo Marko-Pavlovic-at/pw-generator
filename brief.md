@@ -42,8 +42,11 @@ design file : https://www.figma.com/design/FFuy5jQpRNijv2YIsE3yBx/Random-Passwor
 - create js file and link it to html DONE
 - console log something to make sure it works DONE
 - add the array from the brief in js DONE
-- create two pw variables DONE
-- create a function that loops trough the array 15 times log the result
-- make the characters i get random and log the result
-- save them into the vars
-- write it into the div
+- create a function getPassword DONE
+- declare a variable pw empty string DONE
+- use a for loop so it get run 15 times DONE
+- set a variable char to a random number using the index from character array DONE
+- use the pw var add to with characters with the index of the var char DONE
+- end the loop DONE
+- return pw DONE
+- call the function by creating new variables pwone and pwtwo DONE

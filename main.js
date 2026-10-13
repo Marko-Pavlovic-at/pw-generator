@@ -1,5 +1,9 @@
 console.log("hello")
 
+let pwBoxOne = document.querySelector(".pw-box1")
+let pwBoxTwo = document.querySelector(".pw-box2")
+
+
 const characters = 
 ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
     ,"P","Q","R","S","T","U","V","W","X","Y","Z",
@@ -10,12 +14,12 @@ const characters =
 "/"
 ];
 
-let pwOne = getPassword();
-let pwTwo = getPassword();
+let pwOne = ""
+let pwTwo = ""
 
 
 function getPassword(){
-    pw = "";
+   let  pw = "";
     for(let i = 0; i < 16; i++){
         char = Math.floor(Math.random() * characters.length)
 
@@ -25,4 +29,9 @@ function getPassword(){
     return pw
 }
 
-console.log(pwOne, pwTwo);
+function renderPassword(){
+    pwOne = getPassword();
+    pwTwo = getPassword();
+    pwBoxOne.textContent = pwOne;
+    pwBoxTwo.textContent = pwTwo;
+}

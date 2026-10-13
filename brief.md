@@ -10,9 +10,9 @@ each pw needs to be 15 characters long
 design file : https://www.figma.com/design/FFuy5jQpRNijv2YIsE3yBx/Random-Password-Generator--New-version---Copy-?node-id=0-1&p=f&t=tG6GTi5xGxsgQqtg-0
 
 # mvp:
-- built from scratch
-- generate two random passwords when the user clicks a button
-- each password should be 15 characters long
+- built from scratch DONE
+- generate two random passwords when the user clicks a button DONE
+- each password should be 15 characters long DONE
 
 
 # strech goals:
@@ -50,3 +50,9 @@ design file : https://www.figma.com/design/FFuy5jQpRNijv2YIsE3yBx/Random-Passwor
 - end the loop DONE
 - return pw DONE
 - call the function by creating new variables pwone and pwtwo DONE
+
+## Connect with the DOM
+- save the div classes inside of variables DONE
+- create a new function renderPassword DONE
+- in the function set the two password vars with the getpassword function DONE
+- change the text content of the div classes to the pw vars
